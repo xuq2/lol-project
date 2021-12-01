@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tag_array">
+        <item>All</item>
+        <item>Assassin</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Marksman</item>
+        <item>Support</item>
+        <item>Tank</item>
+    </string-array>
+
+    <string-array name="difficulty_array">
+        <item>All</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="partype_array">
+        <item>All</item>
+        <item>Blood Well</item>
+        <item>Courage</item>
+        <item>Crimson Rush</item>
+        <item>Energy</item>
+        <item>Ferocity</item>
+        <item>Flow</item>
+        <item>Fury</item>
+        <item>Grit</item>
+        <item>Mana</item>
+        <item>None</item>
+        <item>Rage</item>
+        <item>Shield</item>
+    </string-array>
+
+    <string-array name="ordered_by_list_entries">
+        <item>NAME</item>
+        <item>HP</item>
+        <item>MP</item>
+        <item>ARMOR</item>
+        <item>SPELLBLOCK</item>
+        <item>ATTACKDAMAGE</item>
+    </string-array>
+
+    <string-array name="ordering_entries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="@string/pref_version_key"
+        android:title="@string/pref_version_title"
+        android:selectable="false"
+        app:useSimpleSummaryProvider="true"/>
+    <ListPreference
+        android:key="@string/pref_ordered_by_key"
+        android:title="@string/pref_ordered_by_title"
+        android:entries="@array/ordered_by_list_entries"
+        android:entryValues="@array/ordered_by_list_entries"
+        android:defaultValue="@string/pref_ordered_default"
+        app:useSimpleSummaryProvider="true"/>
+
+    <ListPreference
+        android:key="@string/pref_asc_dsc_key"
+        android:title="@string/pref_asc_dsc_title"
+        android:entries="@array/ordering_entries"
+        android:entryValues="@array/ordering_entries"
+        android:defaultValue="@string/pref_asc_dsc_default"
+        app:useSimpleSummaryProvider="true"/>
+
+
+</PreferenceScreen>

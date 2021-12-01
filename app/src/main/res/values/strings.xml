@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LoL: Stats Finder</string>
+    <string name="title">League of Legends Champion Stats</string>
+    <string name="tag">Tag:</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="partype">Partype:</string>
+    <string name="search">Search</string>
+
+    <string name="action_settings_title">Settings</string>
+    <string name="champion_name">Champion name:</string>
+    <string name="champion_title">Title:</string>
+    <string name="champion_tag">Tag:</string>
+    <string name="champion_Image">Image</string>
+    <string name="champion_stats_header">Champion Stats</string>
+    <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Vitae auctor eu augue ut lectus. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Diam maecenas ultricies mi eget mauris. Pharetra convallis posuere morbi leo urna. Purus sit amet luctus venenatis lectus magna. Odio euismod lacinia at quis risus. Morbi tincidunt augue interdum velit euismod. Quam id leo in vitae. Semper risus in hendrerit gravida. Velit aliquet sagittis id consectetur purus. Elit at imperdiet dui accumsan. Sit amet justo donec enim diam vulputate ut pharetra sit. Interdum velit euismod in pellentesque massa placerat duis.</string>
+
+    <!-- Strings for units preference -->
+    <string name="pref_version_key" translatable="false">pref_version</string>
+    <string name="pref_version_title">Patch</string>
+    <string name="pref_ordered_by_key" translatable="false">ordered_key</string>
+    <string name="pref_ordered_by_title">Ordered By</string>
+    <string name="pref_ordered_default">HP</string>
+
+
+
+    <string name="pref_asc_dsc_key" translatable="false">asc_dsc_key</string>
+    <string name="pref_asc_dsc_title">Ordering</string>
+    <string name="pref_asc_dsc_default">Ascending</string>
+
+    <string name="loading_error">Unable to execute search. Please check your filter condition.</string>
+
+</resources>

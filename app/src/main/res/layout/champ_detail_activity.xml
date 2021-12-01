@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChampDetailActivity">
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/purple_700"
+            android:padding="15dp"
+            tools:srcCompat="@tools:sample/avatars"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/detail_tags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_blurb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/detail_stat_info"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_baseline_info_24" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/champion_stats_header" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/detail_stat_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_hpregen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="8dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_mp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_mpregen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="8dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_movespeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: ind" />
+
+            <TextView
+                android:id="@+id/detail_stat_armor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_spellblock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_crit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="8dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_attackdamage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_attackspeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: x" />
+
+            <TextView
+                android:id="@+id/detail_stat_attackrange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginBottom="6dp"
+                android:text="test stat: ind" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
